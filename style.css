@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Old';
+    src: url('../Fonts/Gravity-Bold.ttf');
+}
+
+/* Reset some default styles */
+body,
+figure,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Montserrat', Helvetica, serif;
+    background-image: radial-gradient(circle, #af363605 0%, #272727 100%);
+}
+
+
+
+/* Header */
+header {
+    color: #bc002d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid rgb(200, 51, 51);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+header img {
+    width: 12%;
+}
+
+nav ul {
+    list-style-type: arial;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: rgb(79, 3, 66);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Language Switch Button */
+.lang-switch {
+    font-family: 'Montserrat', sans-serif;
+    border: 4px solid darkred;
+    border-radius: 45px;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #bc002d;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.lang-switch:hover {
+    background-color: #bc002d;
+}
+
+/* Hero Section */
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 3px solid rgb(200, 51, 51);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hero img{
+    width: 500px;
+}
+.cta {
+    border: 4px solid rgb(146, 15, 15);
+    border-radius: 45px;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #bc002d;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #bc002d;
+}
+
+/* Products Section */
+.container {
+    padding: 40px 20px;
+    border-bottom: 3px solid rgb(200, 51, 51);
+    margin: 0 15px;
+}
+
+.product-list {
+    display: grid;
+    height: 858px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.product-item {
+    padding: 20px;
+    align-content: start;
+}
+
+.shoePink {
+    height: auto;
+    position: relative;
+    left: 55%;
+    top: -60%;
+    float: right;
+    display: flex;
+    transform: scaleX(-1);
+}
+
+.product-item h3 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.btn {
+    border: 4px solid rgb(200, 51, 51);
+    border-radius: 45px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff8fc;
+    color: #bc002d;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #bc002d;
+}
+
+/* About Us Section */
+#descripcion h1 {
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    color: #972525;
+}
+
+#descripcion p {
+    font-size: 23px;
+    color: #fff;
+}
+
+
+#back {
+    background-image: url("../Img/4060492.jpg");
+    width: auto;
+    height: 120vh;
+    margin-bottom: 0px;
+    margin-top: -90px;
+    background-color: red;
+    background-blend-mode: multiply;
+    top: 90px;
+    position: relative;
+
+}
+
+.labelBack {
+    width: 800px;
+    height: 500px;
+    backdrop-filter: blur(0px) saturate(131%);
+    -webkit-backdrop-filter: blur(0px) saturate(131%);
+    background-color: rgba(249, 175, 166, 0.7);
+    border-radius: 12px;
+    border: 1px solid rgb(245, 139, 125);
+    box-shadow: 30px -15px rgba(77, 50, 44, 0.7);
+    margin-right: 60vh;
+    position: relative;
+    top: 40%;
+}
+#about {
+    position: relative;
+    top: 100px;
+
+}
+#about h2 {
+    font-size: 30px;
+    margin-bottom: 20px; 
+    color: #fff;
+    
+}
+
+#about p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#contacts {
+    position: relative;
+    top: 100px;
+    left: 30%;
+}
+
+button{
+    position: relative;
+    left: 210px;
+	background-color: #27272700;
+}
+
+button img {
+    width: 50px;
+    display: inline-block;
+}
+
+#contacts{
+    display: flex;
+}
+#contacts a{
+    display:flow-root;
+    text-align: center;
+    position: relative;
+    left: 100px;
+}
+#contacts p{
+    display: flex;
+}
+body{
+    overflow-x  : hidden;
+    zoom: 100%;
+}
